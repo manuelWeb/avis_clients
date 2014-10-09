@@ -1,0 +1,9 @@
+#fprod{
+	margin:0 auto;
+	width: 1002px;
+}
+.js-btn-avis{
+	margin-left: 110px;
+}
+.js-btn-avis + a{float: right;}
+/*.avis-off{display: none;}*/
