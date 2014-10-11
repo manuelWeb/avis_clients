@@ -436,7 +436,7 @@ body.item6 #shpEncart .block strong{color:#7C0395}
 #fprod .avis .top{height:55px;background:#F3F3F3;font:bold 12px Arial;line-height: 54px;position: relative;}
 #fprod .avis .top span.debut{margin:18px 5px 0 20px;height:14px;display:inline;float:left;font:italic 14px Georgia;line-height:14px;color:#b1211e;padding-right:95px;}
 /* @modif avis*/.btn-avis{float: right;}#fprod .avis .top a{/* display:inline;float:right; */font:bold 12px Arial;line-height:54px;color:#000;text-decoration:underline;padding-right:20px}
-#fprod .avis .top .star{position:absolute;top:18px;left:165px;width:200px;height:14px;font:12px Arial;line-height:16px;color:#000;text-indent:90px;background:url(../images/Version4/bg_star.png) 0 -70px no-repeat}
+#fprod .avis .top .star{float: left; width:140px;height:14px;margin: 18px 5px 0 0; font:12px Arial;line-height:16px;color:#000;text-indent:90px;background:url(../images/Version4/bg_star.png) 0 -70px no-repeat} /* modif @manuel 1014 $position:absolute;top:18px;left:165px; add margin + fl:l; modif width 200 > 140px */
 #fprod .avis .line{position:relative;margin:8px 0 8px 20px;font:12px Arial;line-height:18px}
 #fprod .avis .line b{font-weight:bold}
 #fprod .avis .line .star{position:absolute;top:5px;right:20px;width:82px;height:14px;font:12px Arial;line-height:16px;color:#000;text-indent:90px;background:url(../images/Version4/bg_star.png) 0 -70px no-repeat}
