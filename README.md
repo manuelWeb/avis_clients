@@ -14,3 +14,10 @@ modification zone avis clients site Temps L
   * correction style > lien Voir tous les avis chevauche 
     les étoiles soit z-index (crade) soit replacer les étoile dans le flux.
   */
+
+ /**
+  *  date = 111014
+  *  js   = modification js descendre le scroll
+  *  nouvelles modif : sur avisClt.js protéger les variables
+  *  ajouter gestionnaire évenements pour ie + débogage crossbrowser
+  */
