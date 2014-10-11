@@ -67,6 +67,8 @@ function toggleDisplay(elmt) {
 toggleDisplay(btnAvis)
 
 // ajout du gestionnaire d'evnmt sur btn "Voir tous les avis"
-btnAvis[0].addEventListener('click', function(e){
- toggleDisplay(btnAvis);
-} , false);
+if(btnAvis[0].addEventListener){
+  btnAvis[0].addEventListener('click', function(e){toggleDisplay(btnAvis);} , false);
+}else {
+  btnAvis[0].attachEvent("onclick",function(e){toggleDisplay(btnAvis);});
+}
