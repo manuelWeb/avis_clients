@@ -17,7 +17,10 @@ modification zone avis clients site Temps L
 
  /**
   *  date = 111014
-  *  js   = modification js descendre le scroll
-  *  nouvelles modif : sur avisClt.js protéger les variables
-  *  ajouter gestionnaire évenements pour ie + débogage crossbrowser
+  *  js   = avisClt.js
+  *  modification js résolue > descendre le scroll
+  *  nouvelles modif : 
+  *  protéger les variables
+  *  ajouter gestionnaire évenements pour ie 7 et 8 
+  *  corrigé bug affichage btn "Donnez votre avis sur ce produit" ie7
   */
