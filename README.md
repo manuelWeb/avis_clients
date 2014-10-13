@@ -1,5 +1,13 @@
 avis_clients
+chemin machine ordi_perso/boulot_MDEVRIES@MKTG013/github
+ordi_pesro
 C:/Users/Manu/Documents/sites/gitRepository/avis_clients
+boulot_MDEVRIES@MKTG013
+C:/Users/mdevries/Pictures/01-TL/dev/avis_clients
+github
+pousser: git push origin master
+maj    : git pull origin master
+
 ============
 
 modification zone avis clients site Temps L 
