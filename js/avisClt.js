@@ -62,6 +62,9 @@
     }else{
       elmt[0].className = 'js-btn-avis avis-off';
       masquer(elmntToHide);
+      // le scroll remonte à la fermeture des avis
+      if(window.pageYOffset==0)
+        fct_scroller(-elmntHeight)
     };
   };
   // on masque les avis au chargement du doc > JS est activé
