@@ -3,7 +3,7 @@ chemin machine ordi_perso/boulot_MDEVRIES@MKTG013/github
 ordi_pesro
 C:/Users/Manu/Documents/sites/gitRepository/avis_clients
 boulot_MDEVRIES@MKTG013
-C:/Users/mdevries/Pictures/01-TL/dev/avis_clients
+C:/Users/mdevries/Pictures/01-TL/dev/newArea/avisClt/avis_clients
 github
 pousser: git push origin master
 maj    : git pull origin master
