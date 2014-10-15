@@ -44,7 +44,7 @@
     for (var i = 0; i < argL; i++) {
       argument[i].style.display = 'block';
     };
-    fct_scroller(elmntHeight+45);// 45 = taille pagination avis
+    fct_scroller(elmntHeight);// +45 45 = taille pagination avis
   };
 
   var btnAvis = document.getElementsByClassName('js-btn-avis');
@@ -63,7 +63,7 @@
       elmt[0].className = 'js-btn-avis avis-off';
       masquer(elmntToHide);
       // le scroll remonte à la fermeture des avis
-      if(window.pageYOffset==0)
+      if(window.pageYOffset!=0)
         fct_scroller(-elmntHeight)
     };
   };
