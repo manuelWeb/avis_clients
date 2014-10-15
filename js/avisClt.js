@@ -1,5 +1,5 @@
 (function(){
-  //ief pour protéger les variables
+  // ief pour protéger les variables
   // chercher class dans élément ou document entier
   document.getElementsByClassName = function(className, elmt) {
     var selection = new Array();
